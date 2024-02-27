@@ -22,7 +22,7 @@ public class Login_functionality22 extends BrowserChoice
 		email.sendKeys(user);
 		password.sendKeys(pass);
 		logbtn.click();     
-		Reporter.log("Job is done");
+		Reporter.log("Job is not done");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		String acurl=driver.getCurrentUrl();
 		String exurl="https://www.saucedemo.com/v1/inventory.html";
