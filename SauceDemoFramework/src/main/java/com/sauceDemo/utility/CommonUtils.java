@@ -15,7 +15,7 @@ import com.sauceDemo.testBase.TestBase;
 
 public class CommonUtils extends TestBase {
 
-	//Dropdown hanling 
+	//Dropdown handling 
 	public void handleDropdownByVisibleText(WebElement element,String text)
 	{
 		Select s = new Select(element);

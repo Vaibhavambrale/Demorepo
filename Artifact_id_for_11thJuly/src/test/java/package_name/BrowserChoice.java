@@ -18,13 +18,13 @@ public class BrowserChoice{
 	public void StartBrowser (@Optional("Chrome") String browser) {
 		
 		if(browser.equals("edge")) {
-			WebDriverManager.edgedriver().setup();
 			driver=new EdgeDriver();
 			driver.manage().window().maximize();
+			System.out.println("Edge Browser");
 		}else if(browser.equals("Chrome")) {
-			WebDriverManager.chromedriver().setup();
 			driver=new ChromeDriver();
 			driver.manage().window().maximize();
+			System.out.println("Chrome Browser");
 		}
 	}
 	

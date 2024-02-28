@@ -10,8 +10,7 @@ public class UtilClass {
 	{
 		driver = d;
 	}
-
-
+	
 	//object Repo 
 	private By add_to_cart_btn = By.xpath("//button[@id='add-to-cart-sauce-labs-backpack']");
 	

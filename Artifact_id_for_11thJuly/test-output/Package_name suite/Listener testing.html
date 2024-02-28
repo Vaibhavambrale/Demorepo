@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Listener testing</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/4/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/4/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Feb 21 18:18:18 IST 2024</td>
+<td>Started on:</td><td>Tue Feb 27 21:47:05 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (366 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (231 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,13 +76,13 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='package_name.Login_functionality22.Excel()'><b>Excel</b><br>Test class: package_name.Login_functionality22<br>Parameters: locked_out_, secret_sauc</td>
+<td title='package_name.Login_functionality22.Excel()'><b>Excel</b><br>Test class: package_name.Login_functionality22<br>Parameters: locked_out_user, secret_sauce</td>
 <td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;package_name.Login_functionality22.driver&quot; is null
-	at package_name.Login_functionality22.Excel(Login_functionality22.java:11)
+	at package_name.Login_functionality22.Excel(Login_functionality22.java:15)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1961002599", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1961002599'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;package_name.Login_functionality22.driver&quot; is null
-	at package_name.Login_functionality22.Excel(Login_functionality22.java:11)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1902237905", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1902237905'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;package_name.Login_functionality22.driver&quot; is null
+	at package_name.Login_functionality22.Excel(Login_functionality22.java:15)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -111,52 +111,15 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>package_name.Login_functionality22@3d1cfad4</td></tr>
-<tr>
-<td title='package_name.Login_functionality22.Excel()'><b>Excel</b><br>Test class: package_name.Login_functionality22<br>Parameters: problem_user, secret_sauce</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;package_name.Login_functionality22.driver&quot; is null
-	at package_name.Login_functionality22.Excel(Login_functionality22.java:11)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1715248762", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1715248762'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;package_name.Login_functionality22.driver&quot; is null
-	at package_name.Login_functionality22.Excel(Login_functionality22.java:11)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>package_name.Login_functionality22@3d1cfad4</td></tr>
+<td>package_name.Login_functionality22@747edf66</td></tr>
 <tr>
 <td title='package_name.Login_functionality22.Excel()'><b>Excel</b><br>Test class: package_name.Login_functionality22<br>Parameters: standard_user, secret_sauce</td>
 <td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;package_name.Login_functionality22.driver&quot; is null
-	at package_name.Login_functionality22.Excel(Login_functionality22.java:11)
+	at package_name.Login_functionality22.Excel(Login_functionality22.java:15)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1959910454", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1959910454'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;package_name.Login_functionality22.driver&quot; is null
-	at package_name.Login_functionality22.Excel(Login_functionality22.java:11)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1976804832", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1976804832'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;package_name.Login_functionality22.driver&quot; is null
+	at package_name.Login_functionality22.Excel(Login_functionality22.java:15)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -185,15 +148,52 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>package_name.Login_functionality22@3d1cfad4</td></tr>
+<td>package_name.Login_functionality22@747edf66</td></tr>
+<tr>
+<td title='package_name.Login_functionality22.Excel()'><b>Excel</b><br>Test class: package_name.Login_functionality22<br>Parameters: problem_user, secret_sauce</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;package_name.Login_functionality22.driver&quot; is null
+	at package_name.Login_functionality22.Excel(Login_functionality22.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace485937598", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace485937598'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;package_name.Login_functionality22.driver&quot; is null
+	at package_name.Login_functionality22.Excel(Login_functionality22.java:15)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>package_name.Login_functionality22@747edf66</td></tr>
 <tr>
 <td title='package_name.Login_functionality22.Excel()'><b>Excel</b><br>Test class: package_name.Login_functionality22<br>Parameters: performance_glitch_user, secret_sauce</td>
 <td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;package_name.Login_functionality22.driver&quot; is null
-	at package_name.Login_functionality22.Excel(Login_functionality22.java:11)
+	at package_name.Login_functionality22.Excel(Login_functionality22.java:15)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2035616217", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2035616217'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;package_name.Login_functionality22.driver&quot; is null
-	at package_name.Login_functionality22.Excel(Login_functionality22.java:11)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace434398524", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace434398524'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;package_name.Login_functionality22.driver&quot; is null
+	at package_name.Login_functionality22.Excel(Login_functionality22.java:15)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -222,7 +222,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>package_name.Login_functionality22@3d1cfad4</td></tr>
+<td>package_name.Login_functionality22@747edf66</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -236,19 +236,7 @@ function toggleAllBoxes() {
 <td title='package_name.Login_functionality22.StartBrowser()'><b>StartBrowser</b><br>Test class: package_name.Login_functionality22<br>Parameters: chrome</td>
 <td></td>
 <td>0</td>
-<td>package_name.Login_functionality22@3d1cfad4</td></tr>
-<tr>
-<td title='package_name.Login_functionality22.test1()'><b>test1</b><br>Test class: package_name.Login_functionality22<br/>
-<a href="#Output-1273143001" onClick='toggleBox("Output-1273143001", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1273143001" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1273143001">
-This is the test report generated<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>package_name.Login_functionality22@3d1cfad4</td></tr>
+<td>package_name.Login_functionality22@747edf66</td></tr>
 </table><p>
 </body>
 </html>

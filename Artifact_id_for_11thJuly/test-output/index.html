@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Varun Ambrale\AppData\Local\Temp\testng-eclipse--190746868\testng-customsuite.xml</span>
+                    <span>C:\Users\Varun Ambrale\AppData\Local\Temp\testng-eclipse-1619392056\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 2 failed,   3 passed</span>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -106,11 +106,6 @@
                         <a href="#" panel-name="suite-Default_suite" title="package_name.Login_functionality22" class="method navigator-link" hash-for-method="Excel(locked_out_user, secret_sauce)">Excel(locked_out_user, secret_sauce)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="package_name.Login_functionality22" class="method navigator-link" hash-for-method="Excel(problem_user, secret_sauc)">Excel(problem_user, secret_sauc)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
@@ -122,12 +117,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="package_name.Login_functionality22" class="method navigator-link" hash-for-method="Excel(standard_user, secret_sauce)">Excel(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="package_name.Login_functionality22" class="method navigator-link" hash-for-method="Excel(problem_user, secret_sauce)">Excel(problem_user, secret_sauce)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="package_name.Login_functionality22" class="method navigator-link" hash-for-method="Excel(performance_glitch_user, secret_sauce)">Excel(performance_glitch_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="package_name.Login_functionality22" class="method navigator-link" hash-for-method="Excel(standard_user, secret_sauce)">Excel(standard_user, secret_sauce)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -163,48 +163,7 @@
 	Not matching expected [https://www.saucedemo.com/v1/inventory.html] but found [https://www.saucedemo.com/v1/index.html]
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-	at package_name.Login_functionality22.Excel(Login_functionality22.java:30)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Excel(problem_user, secret_sauc)">
-                  </a> <!-- Excel(problem_user, secret_sauc) -->
-                  <span class="method-name">Excel</span>
-                  <span class="parameters">(problem_user,secret_sauc)</span>
-                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
-	Not matching expected [https://www.saucedemo.com/v1/inventory.html] but found [https://www.saucedemo.com/v1/index.html]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-	at package_name.Login_functionality22.Excel(Login_functionality22.java:30)
+	at package_name.Login_functionality22.Excel(Login_functionality22.java:26)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -245,10 +204,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Excel(standard_user, secret_sauce)">
-                  </a> <!-- Excel(standard_user, secret_sauce) -->
+                  <a name="Excel(problem_user, secret_sauce)">
+                  </a> <!-- Excel(problem_user, secret_sauce) -->
                   <span class="method-name">Excel</span>
-                  <span class="parameters">(standard_user,secret_sauce)</span>
+                  <span class="parameters">(problem_user,secret_sauce)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -257,6 +216,14 @@
                   </a> <!-- Excel(performance_glitch_user, secret_sauce) -->
                   <span class="method-name">Excel</span>
                   <span class="parameters">(performance_glitch_user,secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Excel(standard_user, secret_sauce)">
+                  </a> <!-- Excel(standard_user, secret_sauce) -->
+                  <span class="method-name">Excel</span>
+                  <span class="parameters">(standard_user,secret_sauce)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -272,7 +239,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Varun Ambrale\AppData\Local\Temp\testng-eclipse--190746868\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Varun Ambrale\AppData\Local\Temp\testng-eclipse-1619392056\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -325,28 +292,28 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Excel')
 data.setCell(0, 2, 'package_name.Login_functionality22')
-data.setCell(0, 3, 5661);
+data.setCell(0, 3, 10345);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'StartBrowser')
 data.setCell(1, 2, 'package_name.Login_functionality22')
-data.setCell(1, 3, 4557);
+data.setCell(1, 3, 7272);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'Excel')
 data.setCell(2, 2, 'package_name.Login_functionality22')
-data.setCell(2, 3, 3572);
+data.setCell(2, 3, 5983);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'Excel')
 data.setCell(3, 2, 'package_name.Login_functionality22')
-data.setCell(3, 3, 576);
+data.setCell(3, 3, 956);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'Excel')
 data.setCell(4, 2, 'package_name.Login_functionality22')
-data.setCell(4, 3, 527);
+data.setCell(4, 3, 608);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <span class="suite-total-time">Total running time: 25 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -357,30 +324,6 @@ return data;
             <span class="header-content">Reporter output for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">Excel(standard_user, secret_sauce)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Job is done</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">Excel(performance_glitch_user, secret_sauce)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Job is done</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">Excel(locked_out_user, secret_sauce)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Job is done</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">Excel(problem_user, secret_sauc)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Job is done</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
@@ -403,27 +346,25 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Excel(standard_user, secret_sauce)</span>
-                <span class="method-start">4608 ms</span>
+                <span class="method-start">7337 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">Excel(locked_out_user, secret_sauce)</span>
-                <span class="method-start">8187 ms</span>
+                <span class="method-start">17687 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">Excel(problem_user, secret_sauc)</span>
-                <span class="method-start">8770 ms</span>
+                <span class="method-name">Excel(problem_user, secret_sauce)</span>
+                <span class="method-start">18301 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Excel(performance_glitch_user, secret_sauce)</span>
-                <span class="method-start">9302 ms</span>
+                <span class="method-start">19259 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">closingBrowser</span>
-                <span class="method-start">15227 ms</span>
+                <span class="method-start">25337 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

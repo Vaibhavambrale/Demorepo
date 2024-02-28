@@ -19,6 +19,7 @@ public class CheckoutPage {
 	private By continue_btn = By.xpath("//input[@id='continue']");
 	private By finish_btn = By.xpath("//button[text()='Finish']");
 	private By status_msg = By.xpath("//*[text()='Thank you for your order!']");
+
 	
 	//------ Action method-----------
 	public void clickOnCheckoutButton()

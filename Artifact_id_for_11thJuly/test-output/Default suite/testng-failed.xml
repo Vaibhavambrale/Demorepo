@@ -5,7 +5,7 @@
     <classes>
       <class name="package_name.Login_functionality22">
         <methods>
-          <include name="Excel" invocation-numbers="1 2"/>
+          <include name="Excel" invocation-numbers="1"/>
           <include name="closingBrowser"/>
         </methods>
       </class> <!-- package_name.Login_functionality22 -->

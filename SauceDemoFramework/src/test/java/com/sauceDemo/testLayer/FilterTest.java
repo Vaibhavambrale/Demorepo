@@ -18,6 +18,6 @@ public class FilterTest extends TestBase {
 		login_obj.enterPassword("secret_sauce");
 		login_obj.clickOnLoginButton();
 		Thread.sleep(3000);
-		inv_obj.selectOptionFromDropdown("Price (low to h)");
+		inv_obj.selectOptionFromDropdown("Price (low to high)");
 	}
 }

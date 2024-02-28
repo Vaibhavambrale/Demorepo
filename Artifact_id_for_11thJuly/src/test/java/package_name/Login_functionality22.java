@@ -1,12 +1,9 @@
 package package_name;
 
-import org.testng.Reporter;
+
 import org.testng.annotations.Test;
-
 import org.testng.asserts.SoftAssert;
-
 import java.time.Duration;
-import org.testng.Reporter;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 public class Login_functionality22 extends BrowserChoice
@@ -22,7 +19,6 @@ public class Login_functionality22 extends BrowserChoice
 		email.sendKeys(user);
 		password.sendKeys(pass);
 		logbtn.click();     
-		Reporter.log("Job is not done");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		String acurl=driver.getCurrentUrl();
 		String exurl="https://www.saucedemo.com/v1/inventory.html";

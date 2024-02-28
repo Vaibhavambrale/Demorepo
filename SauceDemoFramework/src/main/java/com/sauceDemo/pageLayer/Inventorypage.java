@@ -17,7 +17,10 @@ public class Inventorypage {
 		common_utils = new CommonUtils();
 	}
 	
-	//object Repo 
+	//object Repo
+	//private By --->Defines a locator strategy which can be used later to find elements.
+	//Used when we are dynamically trying to find elements.
+	//WebElement Variable_name --->Stores the WebElement and can perform functions directly on it.
 	private By product_link = By.xpath("//a[@id='item_4_title_link']");
 	private By cart_link = By.xpath("//a[@class='shopping_cart_link']");
 	private By menu_link = By.xpath("//button[@id='react-burger-menu-btn']");

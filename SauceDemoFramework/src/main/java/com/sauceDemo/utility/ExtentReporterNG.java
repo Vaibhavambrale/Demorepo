@@ -42,6 +42,10 @@ public class ExtentReporterNG implements IReporter {
 
    	 extent.flush();
    	 extent.close();
+   	 /*The Difference Between the flush() and close() Methods. The flush() method
+   	 is primarily used to force any buffered data to be written immediately without 
+   	 closing the FileWriter, while the close() method both performs flushing and
+   	  releases associated resources.*/
     }
 
     private void buildTestNodes(IResultMap tests, LogStatus status) {

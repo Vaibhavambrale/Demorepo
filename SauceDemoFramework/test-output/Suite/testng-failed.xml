@@ -7,13 +7,6 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.sauceDemo.testLayer.FilterTest">
-        <methods>
-          <include name="filterTest"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.sauceDemo.testLayer.FilterTest -->
       <class name="com.sauceDemo.testLayer.BuyTest">
         <methods>
           <include name="buyProductTest"/>
@@ -21,6 +14,20 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.sauceDemo.testLayer.BuyTest -->
+      <class name="com.sauceDemo.testLayer.FilterTest">
+        <methods>
+          <include name="filterTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.sauceDemo.testLayer.FilterTest -->
+      <class name="com.sauceDemo.testLayer.LoginpageTest">
+        <methods>
+          <include name="verifyLoginTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.sauceDemo.testLayer.LoginpageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

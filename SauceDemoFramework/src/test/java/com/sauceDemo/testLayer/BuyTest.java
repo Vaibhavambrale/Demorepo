@@ -14,7 +14,7 @@ public class BuyTest extends TestBase {
 	@Test
 	public void buyProductTest()
 	{
-		String expected_result = "Thank you for your";
+		String expected_result = "Thank you for your order";
 		Loginpage login_obj = new Loginpage(driver);
 		Inventorypage inv_obj = new Inventorypage(driver);
 		CheckoutPage checkout_obj = new CheckoutPage(driver);
