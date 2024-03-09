@@ -20,6 +20,9 @@ public class Drag_Drop {
 		Point loc=frame.getLocation();
 		System.out.println(loc);
 		Actions act=new Actions(driver);
+		/*build(): This method in Actions class is use to create chain of action or operation you want to perform.
+		perform() :This method in Actions Class is use to execute chain of action which are build using Action build method.
+		build().perform() = create chain of actions + execute */
 		act.clickAndHold(drag).moveToLocation(200,30).release().build().perform();
 		Thread.sleep(3000);
 		driver.close();
